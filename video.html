@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reproductor de video</title>
+  <style>
+    #video-container {
+      position: relative;
+    }
+
+    #controls {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="video-container">
+    <video id="video" width="640" height="360"></video>
+    <div id="controls">
+      <button id="play">Play</button>
+      <button id="pause">Pause</button>
+      <button id="volume-up">Vol+</button>
+      <button id="volume-down">Vol-</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
